@@ -4,6 +4,7 @@ session_start();
 
 class Database {
     private $conn;
+    
 
     public function __construct()
     {
