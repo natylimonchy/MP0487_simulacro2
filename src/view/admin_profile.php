@@ -150,11 +150,12 @@ require_once '../controller/ShowEventInformation.php';
 
             <form id="deleteForm" action="../controller/XController.php" method="POST">
 
-                <label for="deleteInput">Conciertos a eliminar:</label>
+                <label for="eventName">Conciertos a eliminar:</label>
 
                 <?php showEventNames(); ?>
-
+                
                 <input type="submit" value="Eliminar Evento" name="deleteEvent" required>
+                
             </form>
         </div>
     </div>
